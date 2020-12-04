@@ -1,0 +1,52 @@
+{
+  "general": {
+    "dependencies": [],
+    "selector": false
+  },
+  "extensions": {
+    "file": "exs"
+  },
+  "naming_conventions": {
+    "namespace": "snake_case",
+    "function": "snake_case"
+  },
+  "constructs": {
+    "objects": false,
+    "exceptions": false,
+    "function_calls": true,
+    "assignments": true,
+    "heterogeneous_collections": false,
+    "heterogeneous_arguments": false,
+    "evaluation": false,
+    "named_arguments": false,
+    "default_parameters": true
+  },
+  "datatypes": {
+    "integer": "supported",
+    "rational": "supported",
+    "char": "supported",
+    "text": "supported",
+    "boolean": "supported",
+    "sequence": "unsupported",
+    "set": "unsupported",
+    "map": "unsupported",
+    "nothing": "supported",
+
+    "int8": "reduced",
+    "uint8": "reduced",
+    "int16": "reduced",
+    "uint16": "reduced",
+    "int32": "reduced",
+    "uint32": "reduced",
+    "int64": "reduced",
+    "uint64": "reduced",
+    "bigint": "reduced",
+    "single_precision": "reduced",
+    "double_precision": "reduced",
+    "double_extended": "reduced",
+    "fixed_precision": "reduced",
+    "array": "unsupported",
+    "list": "unsupported",
+    "tuple": "unsupported"
+  }
+}

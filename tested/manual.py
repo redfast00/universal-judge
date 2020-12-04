@@ -19,10 +19,10 @@ def read_config() -> DodonaConfig:
     return DodonaConfig(**{
         "memory_limit":         536870912,
         "time_limit":           60,
-        "programming_language": 'javascript',
+        "programming_language": 'elixir',
         "natural_language":     'nl',
-        "resources":            Path('exercise/echo-function/evaluation'),
-        "source":               Path('exercise/echo-function/solution/correct.js'),
+        "resources":            Path('exercise/echo/evaluation'),
+        "source":               Path('exercise/echo/solution/correct.exs'),
         "judge":                Path('.'),
         "workdir":              Path('workdir'),
         "plan_name":            "one.tson",
